@@ -49,6 +49,23 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
+DocumentPath=Voltage_OpAmp.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=CTNLNFOR
+
+[Document2]
 DocumentPath=Top_Level.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -65,7 +82,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZWTTKZPB
 
-[Document2]
+[Document3]
 DocumentPath=MCU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -82,7 +99,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DBFLUNMW
 
-[Document3]
+[Document4]
 DocumentPath=Power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -99,7 +116,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=APOAWUGF
 
-[Document4]
+[Document5]
 DocumentPath=bluetooth.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -116,7 +133,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PLIXSRTH
 
-[Document5]
+[Document6]
 DocumentPath=Half_Bridge.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -133,7 +150,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SPZPONNB
 
-[Document6]
+[Document7]
 DocumentPath=PCB.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -150,7 +167,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DDHNKTPE
 
-[Document7]
+[Document8]
 DocumentPath=Schlib2.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -167,7 +184,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CIOEZBRR
 
-[Document8]
+[Document9]
 DocumentPath=PcbLib2.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -184,7 +201,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WVWOBHNN
 
-[Document9]
+[Document10]
 DocumentPath=CAN.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -201,7 +218,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HEZUYLQC
 
-[Document10]
+[Document11]
 DocumentPath=TEMP.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -218,7 +235,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZQILAXAA
 
-[Document11]
+[Document12]
 DocumentPath=SD.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1202,8 +1219,8 @@ UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=Schlib2.SchLib
-ComponentDesignItemID0=STM32F446RET6
-ComponentSymbolReference0=STM32F446RET6
+ComponentDesignItemID0=TLV9004QDRQ1
+ComponentSymbolReference0=TLV9004QDRQ1
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 FullReplace=1
@@ -1219,100 +1236,18 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Case/Package
+ParameterName0=Comment
 ParameterUpdate0=1
-ParameterName1=Category
+ParameterName1=Component Kind
 ParameterUpdate1=1
-ParameterName2=Comment
+ParameterName2=Description
 ParameterUpdate2=1
-ParameterName3=Component Kind
+ParameterName3=Library Reference
 ParameterUpdate3=1
-ParameterName4=ComponentLink1Description
-ParameterUpdate4=1
-ParameterName5=ComponentLink1URL
-ParameterUpdate5=1
-ParameterName6=ComponentLink2Description
-ParameterUpdate6=1
-ParameterName7=ComponentLink2URL
-ParameterUpdate7=1
-ParameterName8=ComponentLink3Description
-ParameterUpdate8=1
-ParameterName9=ComponentLink3URL
-ParameterUpdate9=1
-ParameterName10=ComponentLink4Description
-ParameterUpdate10=1
-ParameterName11=ComponentLink4URL
-ParameterUpdate11=1
-ParameterName12=ComponentLink5Description
-ParameterUpdate12=1
-ParameterName13=ComponentLink5URL
-ParameterUpdate13=1
-ParameterName14=ComponentLink6Description
-ParameterUpdate14=1
-ParameterName15=ComponentLink6URL
-ParameterUpdate15=1
-ParameterName16=Description
-ParameterUpdate16=1
-ParameterName17=JESD-30 Code
-ParameterUpdate17=1
-ParameterName18=Library Reference
-ParameterUpdate18=1
-ParameterName19=Manufacturer
-ParameterUpdate19=1
-ParameterName20=Manufacturer Part Number
-ParameterUpdate20=1
-ParameterName21=Max Operating Temperature
-ParameterUpdate21=1
-ParameterName22=Max Supply Current
-ParameterUpdate22=1
-ParameterName23=Min Operating Temperature
-ParameterUpdate23=1
-ParameterName24=Package Body Material
-ParameterUpdate24=1
-ParameterName25=Package Equivalence Code
-ParameterUpdate25=1
-ParameterName26=Package Shape
-ParameterUpdate26=1
-ParameterName27=Package Style
-ParameterUpdate27=1
-ParameterName28=Pins
-ParameterUpdate28=1
-ParameterName29=Power Supplies
-ParameterUpdate29=1
-ParameterName30=Pricing
-ParameterUpdate30=1
-ParameterName31=Qualification Status
-ParameterUpdate31=1
-ParameterName32=Reach SVHC Compliant
-ParameterUpdate32=1
-ParameterName33=RoHS
-ParameterUpdate33=1
-ParameterName34=RoHS Compliant
-ParameterUpdate34=1
-ParameterName35=Speed
-ParameterUpdate35=1
-ParameterName36=Stock
-ParameterUpdate36=1
-ParameterName37=Supplier
-ParameterUpdate37=1
-ParameterName38=Supplier Part Number
-ParameterUpdate38=1
-ParameterName39=Surface Mount
-ParameterUpdate39=1
-ParameterName40=Technology
-ParameterUpdate40=1
-ParameterName41=Temperature Grade
-ParameterUpdate41=1
-ParameterName42=Terminal Form
-ParameterUpdate42=1
-ParameterName43=Terminal Pitch
-ParameterUpdate43=1
-ParameterName44=Terminal Position
-ParameterUpdate44=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=FP-LQFP64-5W-IPC_B
+ModelName0=SOIC127P600X175-14N
 ModelUpdate0=1
 
 [DatabaseUpdateOptions]
